@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="ru">
 <?php
-$title = 'Домашнее задание №1';
-require_once 'tasks/common/_head.php'
+$title = 'Домашнее задание №2';
+require_once '../Task1/tasks/common/_head.php';
 ?>
 <body>
 <style>
@@ -16,7 +16,7 @@ require_once 'tasks/common/_head.php'
 </style>
 <div class="container">
     <div class="row">
-        <h1 class="title">Домашнее задание №1</h1>
+        <h1 class="title">Домашнее задание №2</h1>
     </div>
     <div class="row nav-menu">
         <a href="tasks/task1.php" class="btn btn-default">Задание #1</a>
@@ -27,6 +27,8 @@ require_once 'tasks/common/_head.php'
         <a href="tasks/task6.php" class="btn btn-default">Задание #6</a>
         <a href="tasks/task7.php" class="btn btn-default">Задание #7</a>
         <a href="tasks/task8.php" class="btn btn-default">Задание #8</a>
+        <a href="tasks/task9.php" class="btn btn-default">Задание #9</a>
+        <a href="tasks/task10.php" class="btn btn-default">Задание #10</a>
     </div>
 </div>
 

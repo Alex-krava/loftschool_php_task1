@@ -47,3 +47,5 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
+/Task2/tasks/files/anothertest.txt
+/Task2/tasks/anothertest.txt
