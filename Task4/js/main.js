@@ -37,6 +37,7 @@
             type: 'POST',
             data: dataform,
             success: function (res) {
+                console.log(res);
                 var resArr = $.parseJSON(res);
                 if(resArr[0][0] == 'Ошибка'){
                     $('.modal-page .modal-page_title').html(resArr[0][0]);

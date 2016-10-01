@@ -1,0 +1,15 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <h2 class="col-md-12 text-center">Авторизация</h2>
+        </div>
+        <form method="POST" class="col-md-4 col-md-offset-4 text-center auth-form-mvc">
+            <input type="email" name="authEmail" class="form-control auth-form_inputs" placeholder="Введите email">
+            <input type="password" name="authPass" class="form-control auth-form_inputs" placeholder="Введите пароль">
+            <div class="g-recaptcha" data-sitekey="6LeqyQcUAAAAAKBHm4QhUwIzKkxGYGDfmaSHgPwl"></div>
+            <input type="submit" class="btn btn-default" value="Войти">
+        </form>
+    </div>
+{% endblock %}
